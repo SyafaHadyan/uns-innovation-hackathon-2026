@@ -4,6 +4,16 @@ ESP32-WROOM-32.step
   https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/master/RF_Module.3dshapes/ESP32-WROOM-32.step
 Relay_SPDT_SANYOU_SRD_Series_Form_C.step
   https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/master/Relay_THT.3dshapes/Relay_SPDT_SANYOU_SRD_Series_Form_C.step
-pzem-004t_zainmfd.step (original name pzem.STEP)
-  https://github.com/zainmfd/PZEM-004T-Module-Eagle-Library
-Fetched on 2026-11-02. Licenses are handled by the user. The GitHub repo of the PZEM file shows no license.
+Fetched on 2026-11-02.
+
+The PZEM-004T model from https://github.com/zainmfd/PZEM-004T-Module-Eagle-Library was removed from this archive. Its repository has no license.
+
+Licenses
+
+The three models above come from the KiCad 3D library (kicad-packages3D). They are licensed under CC BY-SA 4.0 with the KiCad library exception. See https://www.kicad.org/libraries/license/.
+
+The STEP assemblies in hardware/enclosures/step also embed the KiCad 2.54 mm pin headers and the USB-C receptacle from the same library.
+
+The STEP assemblies of the Clamp and the Clamp meter embed the PG7 cable gland from https://github.com/mi3nts/3DMints2023 (mslns/pg7/PG7 Gland.step). That model is MIT licensed. The license text is in LICENSE-PG7-gland-MIT.txt.
+
+All other parts in the assemblies are simplified models that the team built from typical sizes.
