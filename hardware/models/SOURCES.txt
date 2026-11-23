@@ -1,0 +1,9 @@
+Converter_ACDC_Hi-Link_HLK-PMxx.step
+  https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/master/Converter_ACDC.3dshapes/Converter_ACDC_Hi-Link_HLK-PMxx.step
+ESP32-WROOM-32.step
+  https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/master/RF_Module.3dshapes/ESP32-WROOM-32.step
+Relay_SPDT_SANYOU_SRD_Series_Form_C.step
+  https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/master/Relay_THT.3dshapes/Relay_SPDT_SANYOU_SRD_Series_Form_C.step
+pzem-004t_zainmfd.step (original name pzem.STEP)
+  https://github.com/zainmfd/PZEM-004T-Module-Eagle-Library
+Fetched on 2026-11-02. Licenses are handled by the user. The GitHub repo of the PZEM file shows no license.
