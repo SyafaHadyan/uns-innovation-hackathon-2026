@@ -4,6 +4,10 @@ Archive of the Aethera team's work for the UNS Innovation Hackathon 2026 (Hackat
 
 This repository is a read-only record. The running product lives in the repositories of the `aethera-deeptech` organization.
 
+## Safety
+
+The enclosure designs in this archive are for a device that switches a 220 V mains load. The design is a concept only. It is not tested, not certified and not safe for mains use. Do not build it or connect it to mains power without a review by a qualified person.
+
 ## Related repositories
 
 | Repository | Content |
@@ -26,7 +30,7 @@ This repository is a read-only record. The running product lives in the reposito
 | `docs/organizer` | Guidebook and briefing slides of the hackathon organizer |
 | `docs/team` | Prototype document and the device design (`Aethera_Rancangan Alat.pdf`) |
 | `hardware/enclosures` | 3D enclosures of the Hub, Plug, Clamp and Clamp meter. STL and STEP files, renders, `assumptions.md` and `checks.md` |
-| `hardware/models` | Third-party STEP models used in the enclosures. `SOURCES.txt` lists where each one came from |
+| `hardware/models` | Third-party STEP models used in the enclosures. `SOURCES.txt` lists the source and the license of each one |
 | `firmware/hub`, `firmware/plug` | MicroPython test and demo scripts, the MicroPython images for the boards, and a prebuilt hub build in `firmware/hub` |
 | `firmware/hub-flash-*` | Prebuilt hub firmware. `5ad43d1` is [PR 58](https://github.com/aethera-deeptech/firmware/pull/58) and `a58a75e` is [PR 57](https://github.com/aethera-deeptech/firmware/pull/57) of the firmware repository |
 | `documentation/diagrams` | Architecture and schematic diagrams |
@@ -40,6 +44,11 @@ Personal and administrative documents of the team (identity cards, signatures, C
 
 ## Rights
 
-No license is granted for the original work in this repository, so all rights are reserved by the authors.
+No license is granted for the original work in this repository, so all rights are reserved by the authors. The exceptions are listed below.
+
+- The folders `firmware/hub-flash-*` are named after commits of the [firmware repository](https://github.com/aethera-deeptech/firmware). That repository is licensed under GPL-3.0, so the original code in these binaries is under GPL-3.0 and not under the all-rights-reserved notice. The source is in that repository. Third-party parts bundled in the binaries, such as ESP-IDF and Arduino-ESP32, keep their own licenses.
+- The prebuilt hub build in `firmware/hub` has no recorded source commit. Treat it as a build of the same firmware repository under the same terms.
+- The MicroPython images in `firmware/hub` and `firmware/plug` are builds from micropython.org. MicroPython is licensed under the MIT license.
+- The STEP assemblies in `hardware/enclosures/step` embed third-party models that keep their own licenses. These are models from the KiCad 3D library and a PG7 gland (MIT). The KiCad parts carry CC BY-SA 4.0 (with the KiCad library exception) and stay under it when you share the assemblies. See `hardware/models/SOURCES.txt`.
 
 The organizer documents and the third-party 3D models belong to their own authors and owners. They are kept here as reference material only. Check `hardware/models/SOURCES.txt` and the originals before you reuse them.
