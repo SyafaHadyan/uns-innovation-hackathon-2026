@@ -10,7 +10,7 @@ The PZEM-004T model from https://github.com/zainmfd/PZEM-004T-Module-Eagle-Libra
 
 Licenses
 
-The three models above come from the KiCad 3D library (kicad-packages3D). They are licensed under CC BY-SA 4.0 with the KiCad library exception. See https://www.kicad.org/libraries/license/.
+The three models above come from the KiCad 3D library (kicad-packages3D). They are licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/) with the KiCad library exception. See https://www.kicad.org/libraries/license/.
 
 The STEP assemblies in hardware/enclosures/step also embed the KiCad 2.54 mm pin headers and the USB-C receptacle from the same library.
 
